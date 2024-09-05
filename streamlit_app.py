@@ -1,5 +1,6 @@
-import sklearn as st
+import streamlit as st
 import streamlit_app
+
 from sklearn.model_selection import train_test_split
 import pandas as pd
 # import pickle
