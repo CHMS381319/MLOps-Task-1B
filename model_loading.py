@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 from sklearn.metrics import accuracy_score
 
-model = joblib.load('K-Nearest Neighborsmodel.pkl')  # Ensure this is the model, not data
+model = joblib.load('K-Nearest Neighbors.pkl')  # Ensure this is the model, not data
 
 # Load the test data
 test_data = pd.read_csv('mobile_price_range_data.csv')
